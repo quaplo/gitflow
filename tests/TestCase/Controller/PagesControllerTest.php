@@ -46,6 +46,7 @@ class PagesControllerTest extends IntegrationTestCase
      *
      * @return void
      */
+     
     public function testMissingTemplate()
     {
         Configure::write('debug', false);
