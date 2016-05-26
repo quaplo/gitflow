@@ -33,6 +33,7 @@ class PagesControllerTest extends IntegrationTestCase
      *
      * @return void
      */
+     
     public function testDisplay()
     {
         $this->get('/pages/home');
