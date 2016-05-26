@@ -1,6 +1,6 @@
 <?php 
 
-    echo "ta bavim"; 
+    echo "ta bavim - a fixujem"; 
     
     
     ?>
