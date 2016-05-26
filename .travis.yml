@@ -17,5 +17,6 @@ notifications:
   email: false
   slack: raltra:yFyxVKEqrQx1kxetf6CX1oKo
   
+  
 after_success:
   - bash <(curl -s https://codecov.io/bash)
