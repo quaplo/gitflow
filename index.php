@@ -1,6 +1,6 @@
 <?php 
 
-    echo "kekecina"; 
+    echo "ta bavim"; 
     
     
     ?>
