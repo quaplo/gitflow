@@ -37,7 +37,7 @@ class PagesControllerTest extends IntegrationTestCase
     {
         $this->get('/pages/home');
         $this->assertResponseOk();
-        $this->assertResponseContains('CakePHPoom');
+        $this->assertResponseContains('CakePHP');
         $this->assertResponseContains('<html>');
     }
 
@@ -46,7 +46,6 @@ class PagesControllerTest extends IntegrationTestCase
      *
      * @return void
      */
-     
     public function testMissingTemplate()
     {
         Configure::write('debug', false);
