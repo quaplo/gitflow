@@ -43,6 +43,7 @@ class PagesControllerTest extends IntegrationTestCase
     }
 
     /**
+    
      * Test that missing template renders 404 page in production
      *
      * @return void
